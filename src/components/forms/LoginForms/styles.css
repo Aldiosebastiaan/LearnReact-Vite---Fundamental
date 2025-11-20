@@ -1,0 +1,141 @@
+/* Container utama untuk login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+/* Styling untuk form login */
+.login-form {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Judul form */
+.login-title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Subtitle form */
+.login-subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Styling untuk success banner */
+.success-banner {
+  background-color: #d1fae5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Styling untuk error banner */
+.error-banner {
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Container untuk password input dengan toggle button */
+.password-group {
+  position: relative;
+}
+
+/* Button untuk show/hide password */
+.show-password-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.show-password-btn:hover {
+  background-color: #f3f4f6;
+}
+
+/* Styling untuk login button */
+.login-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Container untuk informasi demo */
+.login-info {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #475569;
+  border: 1px solid #e2e8f0;
+}
+
+.login-info h4 {
+  margin-bottom: 10px;
+  color: #334155;
+}
+
+.login-info ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.login-info li {
+  margin: 5px 0;
+}
+
+.demo-note {
+  margin-top: 10px;
+  font-style: italic;
+  color: #64748b;
+}
+
+/* Debug information (hanya tampil di development) */
+.debug-info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fef3c7;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #92400e;
+  border: 1px solid #f59e0b;
+}
+
+.debug-info h4 {
+  margin-bottom: 8px;
+}

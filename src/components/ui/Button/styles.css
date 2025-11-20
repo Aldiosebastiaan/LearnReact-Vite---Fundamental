@@ -1,0 +1,41 @@
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-primary {
+    background-color: #3b82f6;
+    color: whitesmoke;
+}
+
+.btn-primary:hover:not(:disabled) {
+    background-color: #2563eb;
+}
+
+.btn-secondary {
+    background-color: #6b7280;
+    color: whitesmoke;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn-loader {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
